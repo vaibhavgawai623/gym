@@ -1,0 +1,381 @@
+  mobile screen
+   @media only screen  and (max-width:400px){
+        body{
+            background-color: coral;
+        }    
+        }
+/*  tablet screen*/
+    /* @media only screen  and (min-width:401px) and (nax-width:960){
+        body{
+            background-color:red;
+        }    
+        }/*deckstop */
+    /* @media  only screen  and (min-width:961px){
+        body{
+            background-color:brown;
+        }    
+        } */
+
+    /* @media (max-width:600px){
+            nav article{
+                width:100%;
+                height:auto;
+            }
+        } */
+        body {
+            color: white;
+            margin: 0px;
+            padding: 0px;
+            background: url('/image/bbb.jpg');
+    
+    
+        }
+    
+        nav{
+            display: flex;
+        }
+        .left {
+    
+            display: inline-block;
+            border: 2px solid rgb(107, 237, 9);
+            position: absolute;
+            left:34;
+            top: 0px 10px;
+            margin: 12px auto;
+            margin-top: 0px;
+    
+    
+        }
+    
+        .mid {
+    
+            display: block;
+            width: 78%;
+            margin-inline: 190px;
+            padding: 2px;
+            margin: 12px auto;
+            border: 2px solid rgb(9, 255, 0);
+            top: 0px 10px;
+        }
+    
+        .right {
+            background-color: #ffffff;
+            position: absolute;
+            right: 34px;
+            top: 0px 10px;
+            display: inline-block;
+            border: 2px solid rgb(183, 238, 17);
+    
+    
+        }
+    
+        .navbar {
+    
+            display: inline-block;
+        }
+    
+        .navbar ul li a {
+            font-size: 15px;
+    
+        }
+    
+        .navbar li {
+            display: inline-block;
+            font-size: 10px;
+    
+        }
+    
+        .navbar li a {
+    
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+    
+        }
+    
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: yellow;
+    
+        }
+    
+        .left img {
+            margin-top: 0px;
+            width: 124px;
+            text-align: center;
+        }
+    
+        .btn {
+            margin: 0px 9px;
+            background-color: yellow;
+            color: #ffffff;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 10px;
+            cursor: pointer;
+            width: 36px;
+            border-radius: 2px;
+        }
+    
+        button:hover {
+            background-color: rgb(35, 6, 6);
+        }
+    
+        .gola {
+            margin: 151px 3px 108px 26px;
+            margin-top: 100px;
+            border: 2px solid green;
+            margin: 151px 3px 108px 26px;
+            padding: 12px 20px;
+            width: 30%;
+            border-radius: 46px;
+    
+        }
+    
+        .form-group input text {
+            text-align: center;
+            display: block;
+            font-size: 15px;
+            width: 288px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            border-radius: 6px;
+    
+    
+        }
+    
+        .gola h1 {
+            text-align: center;
+        }
+        
+    
+        .btn {
+            text-align: center;
+        }
+    
+        .button:button {
+            font-family: 'helvetica neue', Helvetica, sans-serif;
+            letter-spacing: 200px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid rgb(red, green, blue);
+            background: rgb(222, 222, 11);
+            color: rgb(7, 7, 200);
+            box-shadow: 1px 1px 2px rgba(red, green, blue, alpha);
+            border-radius: 10px;
+            padding: 3px 10px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    
+        .container {
+            text-align: center;
+            border: 2px solid green;
+            margin: 109px 726px;
+            padding: 12px 20px;
+            width: 30%;
+            border-radius: 51px;
+            margin-top: -467px;
+            margin-inline: 713px;
+        }
+    
+        .container li {
+            font-size: 25px;
+        }
+    
+        .container h1 li a:hover {
+            list-style: none;
+            background-color: blueviolet;
+        }
+    
+        .container img {
+            margin: 1px;
+            ;
+            width: 10%;
+        }
+    
+        .right+.container li {
+            color: azure;
+            list-style: none;
+        }
+    
+        #box {
+            color: rgb(166, 85, 30);
+        }
+   
+        .left {
+            
+            display: inline-block;
+            border: 2px solid rgb(107, 237, 9);
+            position: absolute;
+            top: 0px 10px;
+            margin: 12px auto;
+            margin-top: 0px;
+    
+    
+        }
+    
+        .right {
+            background-color: #ffffff;
+            position: absolute;
+            right: 34px;
+            top: 0px 10px;
+            display: inline-block;
+            border: 2px solid rgb(183, 238, 17);
+    
+        }
+    
+        .navbar li {
+            display: inline-block;
+            font-size: 16px;
+        }
+    
+        .navbar ul li a {
+            font-size: 15px;
+    
+        }
+    
+        .navbar li {
+            display: inline-block;
+            font-size: 16px;
+    
+        }
+    
+        .navbar li a {
+    
+            color: white;
+            text-decoration: none;
+            padding: 34px 23px;
+    
+        }
+    
+        .navbar li a:hover,
+        .navbar li a:active {
+            text-decoration: underline;
+            color: yellow;
+    
+        }
+    
+        .left img {
+            margin-top: 0px;
+            width: 124px;
+            text-align: center;
+        }
+    
+        .btn {
+            margin: 3px 9px;
+            background-color: #12285b;
+            color: #ffffff;
+            padding: 4px 14px;
+            border: 2px solid grey;
+            border-radius: 10px;
+            font-size: 7px;
+            cursor: pointer;
+            width: 36px;
+            border-radius: 9px;
+        }
+    
+        button:hover {
+            background-color: rgb(35, 6, 6);
+        }
+    
+        .gola {
+            margin: 151px 3px 108px 26px;
+            margin-top: 100px;
+            border: 2px solid green;
+            margin: 151px 3px 108px 26px;
+            padding: 12px 20px;
+            width: 30%;
+            border-radius: 46px;
+    
+        }
+    
+        .form-group input {
+            text-align: center;
+            display: block;
+            font-size: 15px;
+            width: 288px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 11px auto;
+            border-radius: 6px;
+    
+    
+        }
+    
+        .gola h1 {
+            text-align: center;
+        }
+    
+        .btn {
+            text-align: center;
+        }
+    
+        .button:button {
+            font-family: 'helvetica neue', Helvetica, sans-serif;
+            letter-spacing: 200px;
+            text-transform: uppercase;
+            text-align: center;
+            border: 2px solid rgb(red, green, blue);
+            background: rgb(222, 222, 11);
+            color: rgb(7, 7, 200);
+            box-shadow: 1px 1px 2px rgba(red, green, blue, alpha);
+            border-radius: 10px;
+            padding: 3px 10px;
+            display: inline-block;
+            cursor: pointer;
+        }
+    
+        .container {
+            text-align: center;
+            border: 2px solid green;
+            margin: 109px 726px;
+            padding: 12px 20px;
+            width: 30%;
+            border-radius: 51px;
+            margin-top: -467px;
+            margin-inline: 713px;
+        }
+    
+        .container li {
+            font-size: 25px;
+        }
+    
+        .container h1 li a:hover {
+            list-style: none;
+            background-color: blueviolet;
+        }
+    
+        .container img {
+            margin: 1px;
+            ;
+            width: 10%;
+        }
+    
+        .right+.container li {
+            color: azure;
+            list-style: none;
+        }
+    
+        #box {
+            color: rgb(166, 85, 30);
+        }
+        .left img {
+            margin-top: 0px;
+            width: 116px;
+            text-align: center;
+        }
+        
+
+.mid {
+    display: block;
+    width: 80%;
+    margin-inline: 187px;
+    padding: 32px;
+    margin: 12px auto;
+    border: 2px solid rgb(9, 255, 0);
+    margin-left: 133px;
+}
